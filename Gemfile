@@ -31,6 +31,8 @@ gem 'newrelic_rpm'
 gem 'puma', '~> 4.1'
 gem 'rack-canonical-host', '~> 0.2.3'
 
+gem 'webpacker'
+
 # For attaching files on the feedback form
 # on Feedback model
 gem 'paperclip'
