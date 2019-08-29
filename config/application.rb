@@ -11,7 +11,7 @@ Bundler.require(*Rails.groups)
 module NzslOnline
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 5.1
+    config.load_defaults 5.2
 
     config.app_domain_name = ENV['APP_DOMAIN_NAME']
     config.app_protocol = ENV['APP_PROTOCOL']
