@@ -56,7 +56,7 @@ gem 'skylight'
 
 group :assets do
   gem 'coffee-rails'
-  gem 'sass-rails'
+  gem 'sassc-rails'
   gem 'uglifier'
 end
 
