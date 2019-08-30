@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-NzslOnline::Application.routes.draw do
+Rails.application.routes.draw do
   devise_for :users
 
   namespace :admin do
